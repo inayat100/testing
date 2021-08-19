@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>base</title>
+    <link rel="stylesheet" href="{% static 'enroll/css/bootstrap.css' %}">
+
+</head>
+<body>
+<div class="container mt-5">
+    <h2 class="text-center alert alert-danger">function view</h2>
+    {% block content %}{% endblock content %}
+</div>
+
+
+
+<link rel="stylesheet" href="{% static 'enroll/js/bootstrap.js' %}">
+</body>
+</html>
